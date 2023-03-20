@@ -8,6 +8,11 @@ The following **required** functionality is completed:
 - [:heavy_check_mark:] Can navigate to the Article Details screen
 - [:heavy_check_mark:] Article images are downloaded and displayed using Glide
 
+### Data Persistence
+Created a local SQLite Database with the Room Library. Defined DAOs and Entities to interact with your database Loaded cached local data in our RecyclerView when fresh network data is unavailable
+- [:heavy_check_mark:] Most recently fetched data is stored locally in a database
+- [:heavy_check_mark:] If user turns on airplane mode and closes and reopens app, old data from the database should be loaded
+
 The following **optional** features are implemented:
 
 - [ ] View elements are styled in the .xml files
